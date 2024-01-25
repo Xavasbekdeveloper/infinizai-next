@@ -1,3 +1,6 @@
+#gaming-box {
+    display: none;
+}
 
 .gaming-boxes {
     display: flex;
