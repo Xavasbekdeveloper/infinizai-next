@@ -52,8 +52,21 @@
     text-transform: capitalize;
 }
 
+@media (max-width: 1135px) {
 
-@media (max-width: 1200px) {
+    
+    .gaming-box__1__container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gaming-box__title {
+        font-size: 38px;
+    }
+}
+
+
+@media (max-width: 900px) {
     .gaming-boxes {
         flex-direction: column;
     }
